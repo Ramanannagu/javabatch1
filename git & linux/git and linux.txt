@@ -1,0 +1,58 @@
+ linux comments
+====================================================
+
+ls                    # List files and directories
+cd                    # Change directory
+pwd                   # Print working directory
+mkdir new_directory   # Create a new directory
+rmdir old_directory   # Remove an empty directory
+rm file               # Remove a file
+cp source destination # Copy a file or directory
+mv source destination # Move or rename a file or directory
+touch filename        # Create a new empty file
+cat file              # Display file contents
+less file             # View file contents one screen at a time
+head file             # Display the first part of a file
+tail file             # Display the last part of a file
+grep 'pattern' file   # Search for a pattern in a file
+chmod 755 file        # Change file permissions
+chown user:group file # Change file owner and group
+ln -s target linkname # Create a symbolic link
+df -h                 # Display disk space usage
+du -h                 # Display directory space usage
+ps aux                # Display running processes
+kill pid              # Kill a process by PID
+top                   # Display real-time system information
+sudo command          # Execute a command as the superuser
+man command           # Show manual for a command
+
+
+
+
+Git commets
+================================================================
+
+
+
+git init                 # Initialize a new Git repository
+git clone url            # Clone a repository from a URL
+git status               # Show the working directory status
+git add file             # Stage a file for commit
+git commit -m "message"  # Commit staged changes with a message
+git push origin branch   # Push commits to a remote repository
+git pull origin branch   # Pull updates from a remote repository
+git fetch                # Fetch updates from a remote repository
+git merge branch         # Merge a branch into the current branch
+git branch               # List all branches
+git branch branch_name   # Create a new branch
+git checkout branch_name # Switch to a branch
+git log                  # Show commit history
+git remote add origin url # Add a remote repository
+git reset --hard commit  # Reset to a specific commit
+git rm file              # Remove a file from the repository
+git stash                # Stash changes for later
+git stash apply          # Apply stashed changes
+git tag tag_name         # Create a new tag
+git show commit          # Show details of a specific commit
+
+======================================================================
